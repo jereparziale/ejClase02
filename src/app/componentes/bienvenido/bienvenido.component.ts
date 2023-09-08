@@ -3,19 +3,17 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-bienvenido',
+  templateUrl: './bienvenido.component.html',
+  styleUrls: ['./bienvenido.component.css']
 })
-export class AppComponent {
-  title = 'clase01ej02';
-
+export class BienvenidoComponent {
+ 
   constructor(private router: Router) {}
-
 
   navigate(){
     this.router.navigateByUrl("login");
-  }
+  } 
 
 }
  
